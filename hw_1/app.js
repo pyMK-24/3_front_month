@@ -6,8 +6,8 @@ commandMoney.textContent = 0;
 commandEnergy.textContent = 200;
 
 function hamster() {
-    let money = parseInt(commandMoney.textContent);
-    let energy = parseInt(commandEnergy.textContent);
+    let money = Number(commandMoney.textContent);
+    let energy = Number(commandEnergy.textContent);
     
     if (energy >= 5) {
         energy -= 5;
