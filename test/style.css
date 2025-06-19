@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+.counter {
+    text-align: center;
+}
+.counter h1 {
+    color: aqua;
+    font-size: 42px;
+}
+.counter span {
+    display: block;
+    font-size: 42px;
+    color: aqua;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#minus {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: red;
+    border: 1px solid red;
+    background-color: #333;
+}
+#reset {
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: aqua;
+    border: 1px solid aqua;
+    background-color: #333;
+}
+#plus {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: green;
+    border: 1px solid green;
+    background-color: #333;
+}
