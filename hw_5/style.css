@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.generator {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    gap: 50px;
+}
+.generator span {
+    color: green;
+    font-size: 40px;
+}
+#refresh {
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid;
+    background-color: green;
+}
